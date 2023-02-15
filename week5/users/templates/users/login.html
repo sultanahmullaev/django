@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="static/login.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h2>Войти в аккаунт</h2>
+
+        <form action="log.php" method="post">
+            <dl>
+                <dt>Логин</dt>
+                <dd><input type="text" placeholder="Введите логин" name="login" required></dd>
+
+                <dt>Пароль<dt>
+                <dd><input type="password" placeholder="Введите пароль" name="psw" required></dd>
+
+                <button type="submit" id="login-btn">Войти</button>
+                <label>
+                    <input type="checkbox" value="checkbox">
+                    <label><b>Запомнить пароль</b></label>
+                </label>
+            </dl>
+
+            <div class="container">
+                <button type="button" class="cancel-btn">Закрыть</button>
+                <a href="regisration.html" id="reg">Зарегистрироваться?</a>
+                <span class="psw">Забыли <a href="#">пароль?</a></span>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

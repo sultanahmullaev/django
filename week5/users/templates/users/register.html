@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href="static/register.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h2>Регистрация</h2>
+
+        <form action="reg.php" method="post">
+            <dl>
+                <dt>Логин<dt>
+                <dd><input type="text" placeholder="Имя" name="login" required></dd>
+
+                <dt>Email<dt>
+                <dd><input type="email" placeholder="Введите Email" name="email" required></dd>
+
+                <dt>Имя<dt>
+                <dd><input type="text" placeholder="Имя" name="name" required></dd>
+
+                <dt>Фамилия<dt>
+                <dd><input type="text" placeholder="Фамилия" name="surname" required></dd>
+
+                <dt>Пароль<dt>
+                <dd><input type="password" placeholder="Придумайте пароль" name="psw" required></dd>
+            </dl>
+
+            <div class="container">
+                <button type="submit" class="cancel-btn">Зарегистрироваться</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
